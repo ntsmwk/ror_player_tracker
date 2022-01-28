@@ -13,7 +13,7 @@ services:
 #      - 5432:5432
     environment:
       POSTGRES_USER: playerstats_db_user
-      POSTGRES_PASSWORD: ###Ror2021###
+      POSTGRES_PASSWORD: ror2021
       POSTGRES_DB: playerstats
     volumes:
       - postgres-data:/var/lib/postgresql/data
