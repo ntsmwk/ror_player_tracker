@@ -39,7 +39,7 @@ public class PlayerStatisticsCrawler {
 	@Autowired private ArchetypePopulationStatisticRepository archetypePopulationStatisticRepository;
 	@Autowired private WorldArchetypePopulationStatisticRepository worldArchetypePopulationStatisticRepository;
 
-	@Scheduled(fixedDelay = 15*60_000)
+	@Scheduled(fixedDelay = 10*60_000)
 	public void crawlPlayerStatistics() {
 
 		RestTemplate restTemplate = initRestTemplate();
